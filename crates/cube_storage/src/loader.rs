@@ -1,6 +1,8 @@
-mod parser {
+use bevy::prelude::*;
 
-    pub fn parse_all(filename: &str) {
-        
+mod loader {
+
+    pub fn load(filename: &str) {
+
     }
 }
