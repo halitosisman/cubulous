@@ -12,6 +12,10 @@ members = ["crates/*"]
 [dependencies]
 bevy = "0.6" # make sure this is the latest version
 
+[env]
+CONFIG_DIR = "configs"
+CUBE_CONFIG = "cube_storage.json"
+
 [[example]]
 name = "basic_render"
 path = "examples/basic_render/basic_render.rs"
