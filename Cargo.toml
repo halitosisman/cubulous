@@ -7,10 +7,10 @@ edition = "2021"
 
 [workspace]
 resolver = "2" # Important! wgpu/Bevy needs this!
-members = ["crates/*"]
 
 [dependencies]
 bevy = "0.6" # make sure this is the latest version
+config = "0.12"
 
 [env]
 CONFIG_DIR = "configs"
