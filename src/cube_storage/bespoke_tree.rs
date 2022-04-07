@@ -1,11 +1,21 @@
 use bevy::prelude::*;
 use crate::cube_storage;
-use crate::cube_storage::cube::Cube;
 use crate::cube_storage::constants::*;
+use crate::cube_storage::math::*;
+use crate::cube_storage::loader::*;
+use crate::cube_storage::types::*;
 
+/// An array of cubes
 struct BespokeLeaf {
-    cubes: [u32; CUBES_IN_LEAF],
+
+    cubes: [CubeT; CUBES_IN_LEAF],
     cached: bool
+}
+
+impl BespokeLeaf {
+    fn load(p: Point3d) {
+
+    }
 }
 
 struct BespokeTwig {

@@ -14,6 +14,7 @@ config = "0.12"
 
 [env]
 CONFIG_DIR = "configs"
+WORLDS_DIR = "worlds"
 CUBE_CONFIG = "cube_storage.json"
 
 [[example]]
